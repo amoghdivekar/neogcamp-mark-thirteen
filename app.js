@@ -137,6 +137,7 @@ function getNextPalindromeDate(date) {
         }
         nextDate = getNextDate(nextDate);
     }
+
     return [ctr, nextDate];
 }
 
